@@ -8,7 +8,8 @@ RUN apt update && \
                 git \
                 build-essential \
                 cmake \
-                x11-apps
+                x11-apps \
+                gdb
 
 RUN apt install -y libx11-dev \
                 xorg-dev \
